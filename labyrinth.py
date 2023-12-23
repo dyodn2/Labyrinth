@@ -475,18 +475,7 @@ def breadth_first_search(labyrinth):
         kk+=1
     
 
-
-# 主函数
-def main():
-    labyrinth = initialize_labyrinth()
-    print("Initial Labyrinth:")
-    print_labyrinth(labyrinth)
-
-    print("Starting Breadth-First Search:")
-    breadth_first_search(labyrinth)
-
 if __name__ == "__main__":
-    # main()
     labyrinth = initialize_labyrinth()
     print("Initial Labyrinth:")
     print_labyrinth(labyrinth)
